@@ -1,0 +1,11 @@
+@import "vars";
+@import "fonts";
+@import "defaults";
+
+body {
+    line-height: 1;
+    font-size: 14px;
+    @media (min-width: 1441px) {
+       font-size: (100vw * 14 / 1440);
+    }
+}

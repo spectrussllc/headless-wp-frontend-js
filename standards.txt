@@ -1,0 +1,9 @@
+Import priority:
+1. Anything from "react"
+2. "styled-components"
+3. constants
+4. functions
+5. interfaces
+6. classes
+7. css
+8. components

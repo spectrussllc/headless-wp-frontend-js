@@ -1,0 +1,69 @@
+h1, h2, h3, h4, h5, h6, p {
+    font-size: 1em;
+    margin: 0;
+    font-weight: inherit;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+input {
+    border: none;
+    padding: 0;
+    color: inherit;
+}
+
+textarea {
+    resize: none;
+    border: none;
+    padding: 0;
+    color: inherit;
+}
+
+button {
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+video {
+    display: block;
+}
+
+iframe {
+    display: block;
+}
+
+:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: inherit;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0;
+    /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+    /* Firefox */
+}
